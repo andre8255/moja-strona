@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochotnicza Straż Pożarna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="flames">
+            <img src="grafika/ogien2.png" alt="Płomień z lewej" class="flame-left">
+            <h1>Ochotnicza Straż Pożarna</h1>
+            <img src="grafika/ogien1.png" alt="Płomień z prawej" class="flame-right">
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">O Nas</a>
+        <a href="#news">Aktualności</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Jesteśmy Jednostką Ochotnioczej Straży Pożarnej, gotową do niesienia pomocy w każdej sytuacji.</p>
+    </section>
+
+    <section id="news">
+        <h2>Aktualności</h2>
+        <div class="news-section">
+            <div class="news-item">
+                <h3>Nowy sprzęt w naszej jednostce</h3>
+                <p>Otrzymaliśmy nowoczesny sprzęt do gaszenia pożarów, który zwiększy nasze możliwości operacyjne.</p>
+            </div>
+            <div class="news-item">
+                <h3>Szkolenie Pierwszej Pomocy</h3>
+                <p>Przeprowadziliśmy szkolenie z pierwszej pomocy w lokalnej szkole podstawowej.</p>
+            </div>
+            <div class="news-item">
+                <h3>Akcja charytatywna</h3>
+                <p>Zapraszamy do wsparcia akcji charytatywnej organizowanej przez naszą jednostkę.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <h3>Strażak w akcji</h3>
+                <img src="galeria/zdj2.jpg" alt="Strażak w akcji">
+            </div>
+            <div class="gallery-item">
+                <h3>Samochody</h3>
+                <img src="galeria/zdj5.jpg" alt="Samochody">
+            </div>
+            <div class="gallery-item">
+                <h3>Pożar</h3>
+                <img src="galeria/zdj1.jpg" alt="Pożar">
+            </div>
+            <div class="gallery-item">
+                <h3>Akcja ratownicza</h3>
+                <img src="galeria/zdj3.jpg" alt="Akcja ratownicza">
+            </div>
+            <div class="gallery-item">
+                <h3>Ćwiczenia</h3>
+                <img src="galeria/zdj6.jpg" alt="Ćwiczenia">
+            </div>
+            <div class="gallery-item">
+                <h3>Zespół strażaków</h3>
+                <img src="galeria/zdj4.jpg" alt="Zespół strażaków">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Twoje Imię" required>
+            <input type="email" placeholder="Twój Email" required>
+            <textarea placeholder="Twoja Wiadomość" required></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <button id="backToTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
